@@ -3,7 +3,7 @@ Repository created to share progress on the Quebec Java Digital bootcamp
 
 Référentiel créé pour partager les progrès sur le bootcamp Québec Java Digital :france:
 
-Repositório criado para compartilhamento do progresso no bootcamp Quebec Java Digital ![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/openmoji/338/flag-brazil_1f1e7-1f1f7.png) "brazil flag")
+Repositório criado para compartilhamento do progresso no bootcamp Quebec Java Digital [![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/openmoji/338/flag-brazil_1f1e7-1f1f7.png))](https://digitalocean.com)
 
 **1. Princípios de Desenvolvimento de Software**
 
