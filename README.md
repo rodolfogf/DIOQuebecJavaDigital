@@ -3,7 +3,7 @@ Repository created to share progress on the Quebec Java Digital bootcamp
 
 Référentiel créé pour partager les progrès sur le bootcamp Québec Java Digital
 
-Repositório criado para compartilhamento do progresso no bootcamp Quebec Java Digital :brazil:
+Repositório criado para compartilhamento do progresso no bootcamp Quebec Java Digital <span>&#x1f1e7;&#x1f1f7;</span>
 
 **1. Princípios de Desenvolvimento de Software**
 
