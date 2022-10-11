@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d4ebd00-7a13-4e26-8db9-c4b6c226ad59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExercicioInterrogatorio/dio/collections/lists/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExercicioInterrogatorio/dio/collections/lists/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dio/collections/lists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dio/collections/lists/Main.java" afterDir="false" />
+    <list default="true" id="1a257ceb-7fe7-4366-9972-488984cd6105" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Set/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Set/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Set/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Set/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Set/Set.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Set/src/dio/collections/set/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Set2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dio/collections/set/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dio/collections/set/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioInterrogatorio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioInterrogatorio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioInterrogatorio/out/production/ExercicioInterrogatorio/dio/collections/lists/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioInterrogatorio/out/production/ExercicioInterrogatorio/dio/collections/lists/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioInterrogatorio/src/dio/collections/lists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioInterrogatorio/src/dio/collections/lists/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +39,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FPohjGMMeDZ2U8HxMJg4kGLAOm" />
+  <component name="ProjectId" id="2FpB62bsS8rK9LqAVeFrvels7Te" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -51,14 +63,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5d4ebd00-7a13-4e26-8db9-c4b6c226ad59" name="Changes" comment="" />
-      <created>1664403206300</created>
+      <changelist id="1a257ceb-7fe7-4366-9972-488984cd6105" name="Changes" comment="" />
+      <created>1665178971592</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664403206300</updated>
-      <workItem from="1664403208367" duration="5547000" />
-      <workItem from="1664489211645" duration="1162000" />
-      <workItem from="1665102239820" duration="147000" />
+      <updated>1665178971592</updated>
+      <workItem from="1665178973503" duration="297000" />
+      <workItem from="1665179551859" duration="2571000" />
+      <workItem from="1665346414234" duration="2633000" />
+      <workItem from="1665446840037" duration="358000" />
     </task>
     <servers />
   </component>

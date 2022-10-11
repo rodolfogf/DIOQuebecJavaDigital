@@ -33,12 +33,9 @@ public class Main {
                 if (iterator.next().isRespostaPergunta()) classificacao ++;
             }
 
-        System.out.print("\nO interrogatório concluiu que a pessoa é ");
-        if (classificacao == 5) System.out.println("assassina");
-        else if (classificacao < 5 && classificacao >= 3) System.out.println("cumplice");
+        if (classificacao <= 1) System.out.println("inocente");
         else if (classificacao == 2) System.out.println("suspeita");
-        else System.out.println("inocente");
-
+        else if (classificacao <= 4) System.out.println("cúmplica");
+        else System.out.println("assassina");
     }
-
 }
