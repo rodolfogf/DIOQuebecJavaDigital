@@ -27,9 +27,8 @@ public class Main {
         cores.add(new Cor("azul",  new int[]{440, 485}));
         cores.add(new Cor("violeta",  new int[]{380, 440}));
 
-        Iterator<Cor> iterator1 = cores.iterator();
-        while(iterator1.hasNext()){
-            System.out.println(iterator1.next());
+        for (Cor cor : cores) {
+            System.out.println(cor);
         }
 
         int qtd_cores = cores.size();
@@ -39,9 +38,8 @@ public class Main {
         TreeSet<Cor> cores_tree = new TreeSet<>();
         cores_tree.addAll(cores);
 
-        Iterator<Cor> iterator2 = cores_tree.iterator();
-        while (iterator2.hasNext()){
-            System.out.println(iterator2.next());
+        for (Cor cor : cores_tree) {
+            System.out.println(cor);
         }
 
         //impressão na ordem inversa usando o método descendingIterator da classe TreeSet
@@ -59,12 +57,7 @@ public class Main {
         }
 
         //remoção das cores que não começam com "v"
-        Iterator<Cor> iterator4 = cores_tree.iterator();
-        while(iterator4.hasNext()){
-
-            if (!iterator4.next().getNome().startsWith("v"))
-                iterator4.remove();
-        }
+        cores_tree.removeIf(cor -> !cor.getNome().startsWith("v"));
 
         cores_tree.clear();
         System.out.println("\nConjunto vazio: " + cores_tree.isEmpty());
