@@ -26,4 +26,10 @@ public class Conta {
     public void lancaDebito(int valor) {
         this.saldo -= valor;
     }
+
+    public void transferirEntreContas(Conta contaDestino, double valor){
+        if (valor <= 0.0){
+            throw new IllegalArgumentException("O valor deve ser maior do que zero!");
+        }
+    }
 }
