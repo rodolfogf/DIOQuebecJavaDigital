@@ -18,3 +18,9 @@ A princípio seria um método da classe "Conta" apenas. Porém, percebeu-se que 
 Método criado para calcular os rendimentos e alterar o saldo da conta poupança.
 
 *Method created to calculate income and change the balance of the savings account.*
+
+### Outras implmentações e alterações
+Dentre outras alterações realizadas estão a alteração na maneira de estabeler o número das contas e a agência, para ficar mais parecido com os números vistos na realidade, alterações no texto dos extratos e em alguns atributos.
+
+*Among other changes made are the change in the way of establishing the number of the accounts and the agency, to be more similar to the numbers seen in reality, changes in the text of the statements and in some attributes.*
+
