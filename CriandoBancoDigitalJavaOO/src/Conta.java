@@ -88,6 +88,10 @@ public abstract class Conta implements IConta {
 
 	public void imprimirExtrato() {		
 		
-	}	
+	}
+	
+	public void aplicarRendimento(){
+		
+	}
 	
 }

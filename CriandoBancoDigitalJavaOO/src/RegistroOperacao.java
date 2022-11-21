@@ -1,5 +1,6 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 
 public class RegistroOperacao {
 	
@@ -18,6 +19,10 @@ public class RegistroOperacao {
 		this.momentoOperacao = momentoOperacao;
 		this.valor = valor;
 		this.contaRelacionada = contaRelacionada;		
+	}
+	
+	public int getMeses() {
+		return (int) ChronoUnit.MONTHS.between(this.momentoOperacao, LocalDateTime.now());
 	}
 
 	@Override
