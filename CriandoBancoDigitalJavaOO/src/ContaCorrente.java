@@ -1,5 +1,7 @@
 
 public class ContaCorrente extends Conta {
+	
+	private double taxaManutencao = 12.43;
 
 	public ContaCorrente(Cliente cliente) {
 		super(cliente);
@@ -13,6 +15,5 @@ public class ContaCorrente extends Conta {
 		for (RegistroOperacao r : operacoes) {
 			System.out.println(r.toString());
 		}
-	}
-	
+	}	
 }

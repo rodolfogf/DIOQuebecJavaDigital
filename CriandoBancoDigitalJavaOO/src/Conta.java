@@ -90,7 +90,7 @@ public abstract class Conta implements IConta {
 		
 	}
 	
-	public void aplicarRendimento(){
+	public void aplicarRendimento() {
 		
 	}
 	

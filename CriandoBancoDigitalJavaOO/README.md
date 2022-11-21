@@ -1,18 +1,20 @@
 # Criando um Banco Digital com Java e Orientação a Objetos
 
-## 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
+## Projeto feito a partir da estrutura disponibilizada no desafio:
 
 Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário:
 “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
 
-### Abstração
-Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
+A implementação realizada consistiu na alteração de alguns atributos, implementação de uma classe chamada RegistroOperacao, na modificação dos métodos de saque, depósito e transferência, na modificação das respectivas sobrecargas do método imprimirExtrato das classes "ContaCorrente" e "ContaPoupanca", dentre outras. 
 
-### Encapsulamento
-Encapsular significa esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender. O encapsulamento favorece principalmente dois aspectos de um sistema: a manutenção e a evolução.
+### Classe RegistroOperacao
+Esta classe foi criada para registrar cada operação feita, seu valor e as conta envolvidas quando este for o caso, para que tais operações fosse exibidas no extrato. Além disso, também serve para auxiliar no cálculo do rendimento da poupança, uma vez que a depender do tempo em que o valor foi adicionado na conta, fará ou não parte do cálculo de rendimentos.
+A princípio seria um método da classe "Conta" apenas. Porém, percebeu-se que sendo um classe, suas funções seriam desempenhadas da melhor forma no contexto do desafio.
 
-### Herança
-Permite que você defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros são herdados é chamada de classe base. A classe que herda os membros da classe base é chamada de classe derivada.
+*This class was created to register each operation performed, its value and the account involved when this is the case, so that such operations could be displayed in the statement. In addition, it also serves to assist in the calculation of the savings income, since depending on the time in which the value was added to the account, it will or will not be part of the income calculation.*
+*At first it would be a method of the Conta ("Account") class only. However, it was noticed that being a class, its functions would be performed in the best way in the given context.*
 
-### Polimorfismo
-Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+### Método aplicarRendimento da classe ContaPoupanca
+Método criado para calcular os rendimentos e alterar o saldo da conta poupança.
+
+*Method created to calculate income and change the balance of the savings account.*

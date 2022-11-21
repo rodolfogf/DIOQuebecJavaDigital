@@ -17,10 +17,6 @@ public class ContaPoupanca extends Conta {
 		}
 	}
 	
-	public void teste() {
-		
-	}
-	
 	public void aplicarRendimento(){
 		
 		double saldoRentavel = saldo;
